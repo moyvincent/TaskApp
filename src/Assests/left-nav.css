@@ -1,0 +1,38 @@
+.left-nav {
+  background-color: #484c7f;
+  border-radius: 1.1rem;
+  flex-grow: 0;
+  height: calc(100vh vh - 50px);
+  margin: 25px;
+  order: 1;
+  overflow-y: auto;
+  scroll-behavior: smooth;
+  scrollbar-width: none;
+  transition: 0.1s ease;
+  width: 260px;
+  z-index: 99999;
+  padding-bottom: 1.5rem !important;
+  padding-top: 1.5rem !important;
+  padding-left: 1.5rem !important;
+  padding-right: 1.5rem !important;
+}
+
+.menu-item {
+ border: black;
+ text-align: center;
+ margin: 20px 20px;
+}
+
+.left-nav a{
+  background-color: #484c7f;
+  padding: 10px 10px;
+  display: block;
+  margin: 20px 20px;
+  color: white;
+  border-color: grey;
+ }
+
+ .left-nav div:hover{
+  background-color: #171a3b;
+  padding: 10px 10px;
+ }
